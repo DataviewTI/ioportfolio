@@ -1,0 +1,34 @@
+{
+  "description": "Private package for smartsol site",
+  "main": "wploader.js",
+  "name": "intranetone-portfolio",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Marcelo Disconzi",
+      "email": "mdisconzi@gmail.com"
+    },
+    {
+      "name": "Thiago Brauer",
+      "email": "thiagobrauer@gmail.com"
+    }
+  ],
+  "keywords": [
+    "Laravel",
+    "IntranetOne",
+    "Intranet CMS",
+    "Dataview",
+    "Portfólio"
+  ],
+  "IODependencies": {
+    "dropzone": "^5.1.1",
+    "jquery-maskmoney":"^3.0.2",
+    "devbridge-autocomplete":"^1.4.7",
+    "moment": "^2.21.0",
+    "moment-duration-format": "^2.2.2",
+    "dv-wickedpicker": "^0.0.1"
+  },
+  "ignore": [
+    "node_modules"
+  ]
+}
