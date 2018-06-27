@@ -100,9 +100,9 @@
       </div>
       <div class = 'row'>
         <div class="col-sm-12 col-xs-12 px-1">
-          <div class="form-group">
+          <div class="form-group mb-0">
             <label for = 'description' class = 'bmd-label-static'>Descrição do Projeto</label>
-            <textarea name = 'description' rows="3" type = 'text' class = 'form-control form-control-lg'></textarea>
+            <textarea name = 'description' rows="2" type = 'text' class = 'form-control form-control-lg'></textarea>
           </div>
         </div>
       </div>      
