@@ -1,33 +1,33 @@
 
-# Portifólio
+# Cadastro de Portfolios para IntranetOne
+Cadastro de Portfolios para IntranetOne.
 IOPortifólio requires IntranetOne
 ## Conteúdo
  
-- [Instalação](#instalação)
-- [Assets](#assets) 
-
 ## Instalação
 
 ```sh
-composer require dataview/ioportifolio
+composer require dataview/iopopup
 ```
-Instalar o IntranetOne com php artisan
 ```sh
-php artisan intranetone-portifolio:install
+php artisan io-popup:install
 ```
 
+- Configure o webpack conforme abaixo 
+```js
+...
+let popup = require('io-popup');
+io.compile({
+  services:{
+    ...
+    new popup()
+    ...
+  }
+});
 
-## Assets
-  
- - Instalar pacote js da intranetone
- `bower install intranetone-portifolio --save`
-
-
-### Configurações Manuais
-
-Abrir o package em "resources/vendors/dataview-intranetone-portifolio/src" e inserir o conteúdo do arquivo "append_webpack.js" no webpack do projeto
-
- - Compilar os assets e fazer cache
- `npm run dev|prod|watch`
- `php artisan config:cache`
- 
+```
+- Compile os assets e faça o cache
+```sh
+npm run dev|prod|watch
+php artisan config:cache
+```
