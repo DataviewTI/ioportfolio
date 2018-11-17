@@ -18,11 +18,11 @@ php artisan io-popup:install
 ...
 let popup = require('io-popup');
 io.compile({
-  services:{
+  services:[
     ...
-    new popup()
+    new popup(),
     ...
-  }
+  ]
 });
 
 ```
